@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen Seeker</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- JavaScript -->
+    <script src="../js/reviews.js" defer></script>
+</head>
+<body>
+    <header>
+    <div class="logo">
+        <h1>Screen Seeker</h1>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="watchlist.html">Watchlist</a></li>
+        </ul>
+    </nav>
+    <div class="search-container">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search for a movie..."
+            >
+            <button id="searchBtn">Search</button>
+        </div>
+</header>
+
+<main id="reviewsPage">
+    <div id="recentMovies">
+        <h2>Recently Viewed</h2>
+        <div id="historyList"></div>
+    </div>
+
+    <div id="reviewsContainer"></div>
+</main>
+
+</body>

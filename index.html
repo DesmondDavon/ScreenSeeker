@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen Seeker</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript -->
+    <!--<script src="script.js" defer></script> -->
+<script src="js/home.js" defer></script>
+</head>
+<body>
+
+  <div id="introScreen">
+    <div class="intro-content">
+        <h1>🎬 Screen Seeker</h1>
+        <h2>Shhh...</h2>
+        <p>Please silence your phone and enjoy the show.</p>
+    </div>
+  </div>
+
+    <header>
+        <div class="logo">
+            <h1>Screen Seeker</h1>
+        </div>
+
+        <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="HTML/movies.html">Movies</a></li>
+              <li><a href="HTML/reviews.html">Reviews</a></li>
+              <li><a href="HTML/watchlist.html">Watchlist</a></li>
+            </ul>   
+        </nav>
+
+        <div class="search-container">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search for a movie..."
+            >
+            <button id="searchBtn">Search</button>
+        </div>
+    </header>
+
+    <section id="homePage">
+        <h2>Welcome to Screen Seeker</h2>
+        <h3>Discover movies, read reviews, and create your watchlist!</h3>
+    </section>
+
+    <div id="movieResults"></div>
+
+
+</body>
+</html>
